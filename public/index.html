@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Sketchpad</title>
+
+<script type="text/javascript" src="js/websocketConnection.js"></script>
+<script type="text/javascript" src="js/DumbDraw.js"></script>
+
+<script type="module" src="js/main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/dumbDraw.css">
+
+<style>
+
+body{
+  margin: 0;
+}
+
+#sketchpad{
+
+  margin-top: 52px;
+  margin-left: 300px;
+
+}
+
+</style>
+
+</head>
+
+<body onload="init()">
+
+  <canvas id="sketchpad" height="700" width="1000">
+  </canvas>
+
+</body>
+</html>

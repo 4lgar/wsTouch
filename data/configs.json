@@ -1,0 +1,154 @@
+[
+  {
+    "name": "TechChill",
+    "audioKit": {
+      "bpm": "500",
+      "duration": 40,
+      "samples": [
+        {
+          "fileName": "/audio/techChill/4.mp3",
+          "audio": {},
+          "icon": "/icon/techChill/4.png"
+        },    
+        {
+          "fileName": "/audio/techChill/3.mp3",
+          "audio": {},
+          "icon": "/icon/techChill/3.png"
+        },    
+        {
+          "fileName": "/audio/techChill/2.mp3",
+          "audio": {},
+          "icon": "/icon/techChill/2.png"
+        },  
+        {
+          "fileName": "/audio/techChill/1.mp3",
+          "audio": {},
+          "icon": "/icon/techChill/1.png"
+        },                      
+        {
+          "fileName": "/audio/techChill/0.mp3",
+          "audio": {},
+          "icon": "/icon/techChill/0.png"
+        }
+      ],
+      "bgAudio": {
+        "fileName": "/audio/techChill/background_120bpm.mp3",
+        "audio": {}
+      }
+    }
+  },
+  {
+    "name": "TechAmbianFirePit",
+    "audioKit": {
+      "bpm": "250",
+      "duration": 96,
+      "samples": [
+        {
+          "fileName": "/audio/techAmbiantFirePit/0.mp3",
+          "audio": {},
+          "icon": "/icon/TechAmbianFirePit/0.png"
+        },
+        {
+          "fileName": "/audio/techAmbiantFirePit/1.mp3",
+          "audio": {},
+          "icon": "/icon/TechAmbianFirePit/1.png"
+        },
+        {
+          "fileName": "/audio/techAmbiantFirePit/2.mp3",
+          "audio": {},
+          "icon": "/icon/TechAmbianFirePit/2.png"
+        },
+        {
+          "fileName": "/audio/techAmbiantFirePit/3.mp3",
+          "audio": {},
+          "icon": "/icon/TechAmbianFirePit/3.png"
+        },
+        {
+          "fileName": "/audio/techAmbiantFirePit/4.mp3",
+          "audio": {},
+          "icon": "/icon/TechAmbianFirePit/4.png"
+        }
+      ],
+      "bgAudio": {
+        "fileName": "/audio/techAmbiantFirePit/background_120bpm.mp3",
+        "audio": {}
+      }
+    }
+  },
+  {
+    "name": "Piano",
+    "audioKit": {
+      "bpm": "1000",
+      "duration": 23,
+      "samples": [
+        {
+          "fileName": "/audio/piano/0.mp3",
+          "audio": {},
+          "icon": "/icon/Piano/0.png"
+        },
+        {
+          "fileName": "/audio/piano/1.mp3",
+          "audio": {},
+          "icon": "/icon/Piano/1.png"
+        },
+        {
+          "fileName": "/audio/piano/2.mp3",
+          "audio": {},
+          "icon": "/icon/Piano/2.png"
+        },
+        {
+          "fileName": "/audio/piano/3.mp3",
+          "audio": {},
+          "icon": "/icon/Piano/3.png"
+        },
+        {
+          "fileName": "/audio/piano/4.mp3",
+          "audio": {},
+          "icon": "/icon/Piano/4.png"
+        }
+      ],
+      "bgAudio": {
+        "fileName": "/audio/piano/background_60bpm.mp3",
+        "audio": {}
+      }
+    }
+  },  
+  {
+    "name": "hardArp",
+    "audioKit": {
+      "bpm": "300",
+      "duration": 72,
+      "samples": [
+        {
+          "fileName": "/audio/hardArp/0.mp3",
+          "audio": {},
+          "icon": "/icon/hardArp/0.png"
+        },
+        {
+          "fileName": "/audio/hardArp/1.mp3",
+          "audio": {},
+          "icon": "/icon/hardArp/1.png"
+        },
+        {
+          "fileName": "/audio/hardArp/2.mp3",
+          "audio": {},
+          "icon": "/icon/hardArp/2.png"
+        },
+        {
+          "fileName": "/audio/hardArp/3.mp3",
+          "audio": {},
+          "icon": "/icon/hardArp/3.png"
+        },
+        {
+          "fileName": "/audio/hardArp/4.mp3",
+          "audio": {},
+          "icon": "/icon/hardArp/4.png"
+        }
+      ],
+      "bgAudio": {
+        "fileName": "/audio/hardArp/background_100bpm.mp3",
+        "audio": {}
+      }
+    }
+  }  
+]

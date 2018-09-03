@@ -1,0 +1,21 @@
+ffmpeg -i 0.aif -f mp3 -acodec libmp3lame -ab 192000 -ar 44100 0.mp3 &&
+ffmpeg -i 1.aif -f mp3 -acodec libmp3lame -ab 192000 -ar 44100 1.mp3 &&
+ffmpeg -i 2.aif -f mp3 -acodec libmp3lame -ab 192000 -ar 44100 2.mp3 &&
+ffmpeg -i 3.aif -f mp3 -acodec libmp3lame -ab 192000 -ar 44100 3.mp3 &&
+ffmpeg -i 4.aif -f mp3 -acodec libmp3lame -ab 192000 -ar 44100 4.mp3
+
+
+
+
+ffmpeg -i 0.mp3 -filter:a "volume=2" 0.mp3 &&
+ffmpeg -i 1.mp3 -filter:a "volume=2" 1.mp3 &&
+ffmpeg -i 2.mp3 -filter:a "volume=2" 2.mp3 &&
+ffmpeg -i 3.mp3 -filter:a "volume=2" 3.mp3 &&
+ffmpeg -i 4.mp3 -filter:a "volume=2" 4.mp3
+
+
+ffmpeg -i 0.mp3 -filter:a "volume=0.5" 0.mp3 &&
+ffmpeg -i 1.mp3 -filter:a "volume=0.5" 1.mp3 &&
+ffmpeg -i 2.mp3 -filter:a "volume=0.5" 2.mp3 &&
+ffmpeg -i 3.mp3 -filter:a "volume=0.5" 3.mp3 &&
+ffmpeg -i 4.mp3 -filter:a "volume=0.5" 4.mp3
